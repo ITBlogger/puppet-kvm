@@ -1,0 +1,6 @@
+name 'itblogger-kvm'
+version '0.1.0'
+author 'Alex Scoble'
+license 'Apache 2.0'
+dependency 'puppetlabs/vcsrepo', '0.2.0'
+dependency 'puppetlabs/firewall', '1.0.0'

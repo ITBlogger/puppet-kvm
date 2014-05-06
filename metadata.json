@@ -1,0 +1,46 @@
+{
+  "author": "Alex Scoble",
+  "checksums": {
+    "manifests\\init.pp": "363c77c7551be3da19f0dd5f5a258d25",
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "templates\\webvirtmgr.conf.erb": "1b036d864a71067bc5a079dbc8abb0bf",
+    "manifests\\fw.pp": "e985786d6fd15e42223ab53a0cbae516",
+    "tests\\.gitkeep": "d41d8cd98f00b204e9800998ecf8427e",
+    "spec\\spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "files\\supervisord.conf": "87da4a4a672b6bec0428e703f1bf80e4",
+    "manifests\\virtnet.pp": "89988cec3c5c9dd24bcc63b7e13f79d0",
+    "spec\\.gitkeep": "d41d8cd98f00b204e9800998ecf8427e",
+    "manifests\\kvmwebmgr.pp": "83a48850f2253ebdd34177465b950f46",
+    "Modulefile": "b8756d8fd254ee1e34612a776d032f4e",
+    "README.markdown": "f28f5e14cb2bc4f422ee2985dd9dcfd9",
+    "LICENSE": "6c4db32a2fa8717faffa1d4f10136f47",
+    "spec\\spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "tests\\init.pp": "92ff110930b8d1c79cd8c4c478000a46",
+    "manifests\\virtpool.pp": "ed49e0813d92f9e9bc7c38f50d387fd0",
+    "templates\\virtnet.xml.erb": "a04a1fbb6cc2a5f97d12f5e0bf728b62",
+    "manifests\\virts.pp": "2b000dadb93456b32a839b529760b65c",
+    "manifests\\virtvol.pp": "b06a57dcc2e7eb40c19b8edd1f10b7c2",
+    "files\\initial_data.json": "d276bb9114d076f6307fea75a0a686db",
+    "files\\webvirtmgr-novnc": "47f316d19c1718d27a2c7be2cc7a2c09",
+    "files\\virtio-net.rom": "f3b32eef64f721e599edafc53014d795",
+    "README.md": "efb429b430a409bfac648d9ab11f394b"
+  },
+  "dependencies": [
+    {
+      "name": "puppetlabs/vcsrepo",
+      "version_requirement": "0.2.0"
+    },
+    {
+      "name": "puppetlabs/firewall",
+      "version_requirement": "1.0.0"
+    }
+  ],
+  "description": "",
+  "license": "Apache 2.0",
+  "name": "itblogger-kvm",
+  "project_page": "",
+  "source": "",
+  "summary": "",
+  "types": [],
+  "version": "0.1.0"
+}
